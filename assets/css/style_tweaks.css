@@ -1,0 +1,42 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 50px;/*51 to poprawna liczba*/
+  color: #232323;
+  /*background-image: url("../img/tile_wood.jpg");*/
+}
+footer {
+  border-top: 5px solid #3d3e05;
+  padding: 10px 0;
+  background-color: #eee;
+  text-align: center;
+  color: #232323;
+}
+/*h2 for footer */
+h1{
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/*for pre footer content*/
+.prefooter{
+  background-color: #232323;
+  color: #fff;  
+}
+
+.jumbotron{
+  margin-bottom: 0px;
+
+}
+.row{
+  margin-bottom: 60px;
+}
+.yt_player{
+    background-color: #232323;
+}

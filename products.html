@@ -13,14 +13,19 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  
+
 
     <!-- Custom styles for this template -->
+    <link href="assets/css/offcanvas.css" rel="stylesheet">
     <link href="assets/css/products.css" rel="stylesheet">
     <link href="assets/css/navbar.css" rel="stylesheet">
     <link href="assets/css/line_shadow.css" rel="stylesheet">
     <link href="assets/css/style_tweaks.css" rel="stylesheet">
     <link href="assets/css/item_box.css" rel="stylesheet">
+
+    <!-- Including jquery.js -->
+    <script src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -90,10 +95,10 @@
       <!-- Navbar Dynamic collapse -->
 
 
-      <div class="container">
 
-        <div class="row row-offcanvas row-offcanvas-left">
-          <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+
+        <div class="row row-offcanvas row-offcanvas-left" >
+          <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" style="  background-color: #232;">
             <div class="list-group">
               <div class="list-group-item-category">Kategoria</div>
               <a href="#" class="list-group-item">Link</a>
@@ -107,47 +112,175 @@
               <a href="#" class="list-group-item">Link</a>
             </div>
           </div><!--/.sidebar-offcanvas-->
-          <div class="col-xs-12 col-sm-9">
+        </div><!--/row-->
+        <div class="container">
+          <div class="col-xs-12 col-sm-12" style="  background-color: #232;">
+            <div class="row">
             <p class="pull-left visible-xs">
               <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
             </p>
+          </div>
+
 
             <div class="row">
               <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/113_O-P.png" alt="113_O-P.png">
+                      <a href="#113 O P" role="button">
+                      <figcaption>
+                          <h5>113 O P</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
               <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-O-B_kurtka.png" alt="214-O-B_kurtka.png">
+                      <a href="#214-O-B" role="button">
+                      <figcaption>
+                          <h5>214 O-B</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+             </div>
               <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-o-b_spodnie.png" alt="214-o-b_spodnie.png">
+                      <a href="#214-o-b_spodnie.png" role="button">
+                      <figcaption>
+                          <h5>214 o-b</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="row">
               <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/113_O-P.png" alt="113_O-P.png">
+                      <a href="#113 O P" role="button">
+                      <figcaption>
+                          <h5>113 O P</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
               <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-O-B_kurtka.png" alt="214-O-B_kurtka.png">
+                      <a href="#214-O-B" role="button">
+                      <figcaption>
+                          <h5>214 O-B</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+             </div>
               <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
-            </div><!--/row-->
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-o-b_spodnie.png" alt="214-o-b_spodnie.png">
+                      <a href="#214-o-b_spodnie.png" role="button">
+                      <figcaption>
+                          <h5>214 o-b</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 col-lg-4">
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/113_O-P.png" alt="113_O-P.png">
+                      <a href="#113 O P" role="button">
+                      <figcaption>
+                          <h5>113 O P</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-xs-6 col-lg-4">
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-O-B_kurtka.png" alt="214-O-B_kurtka.png">
+                      <a href="#214-O-B" role="button">
+                      <figcaption>
+                          <h5>214 O-B</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+             </div>
+              <div class="col-xs-6 col-lg-4">
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-o-b_spodnie.png" alt="214-o-b_spodnie.png">
+                      <a href="#214-o-b_spodnie.png" role="button">
+                      <figcaption>
+                          <h5>214 o-b</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 col-lg-4">
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/113_O-P.png" alt="113_O-P.png">
+                      <a href="#113 O P" role="button">
+                      <figcaption>
+                          <h5>113 O P</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-xs-6 col-lg-4">
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-O-B_kurtka.png" alt="214-O-B_kurtka.png">
+                      <a href="#214-O-B" role="button">
+                      <figcaption>
+                          <h5>214 O-B</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+             </div>
+              <div class="col-xs-6 col-lg-4">
+                <div class="grid mask">
+                  <figure>
+                      <img class="img-responsive" src="assets/img/214-o-b_spodnie.png" alt="214-o-b_spodnie.png">
+                      <a href="#214-o-b_spodnie.png" role="button">
+                      <figcaption>
+                          <h5>214 o-b</h5>
+                      </figcaption>
+                      </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+
+
           </div><!--/.col-xs-12.col-sm-9-->
 
 
-        </div><!--/row-->
+
       </div><!--/conteiner-->
 
       <div class="gren-line"></div>

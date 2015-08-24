@@ -95,11 +95,11 @@
   width: 100%;
 }
 .col-lg-5 {
-  margin-top: 5px;
-  padding-left: 2px;
-  padding-right: 2px;
-  width: 33%;
-  height: 33%;
+  margin-top: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 20%;
+  height: 20%;
 }
 
 /* RESPONSIVE CSS

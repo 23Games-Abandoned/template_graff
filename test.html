@@ -28,6 +28,32 @@
     <script src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 
+    <!-- lazy loading IMG for item_box -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  		<script>
+  		function showElement(what,duration) {
+  			$(what).each(function (i) {
+  				var top = $(this).offset().top;
+  				var height = $(this).outerHeight()+$(window).scrollTop();
+
+  				if (top < height) {
+  					$(this).animate({ opacity: 1 }, duration);
+  				}
+  			});
+  		}
+  		$(window).load(function() {
+  			showElement('img', 700);
+  		});
+  		$(window).scroll(function () {
+  			showElement('img', 700);
+  		});
+  		</script>
+		<style>
+      .img-responsive{
+      opacity: 0;
+      }
+		</style>
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
